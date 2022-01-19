@@ -1,2 +1,3 @@
-!#/bin/sh
-echo ${imageName}
+#!/bin/sh
+echo ${imageName}:${imageName}
+echo $imageName
