@@ -1,3 +1,2 @@
 #!/bin/sh
-echo ${imageName}:${imageName}
-echo $imageName
+docker rmi $(docker images -f "dangling=true" -q)
